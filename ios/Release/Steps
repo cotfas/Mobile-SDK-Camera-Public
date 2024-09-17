@@ -1,0 +1,13 @@
+Doing the release steps:
+
+- First archive with Xcode
+- Locate and find Framework archive, eg:
+cd /Users/work/Library/Developer/Xcode/Archives/2024-09-17/Camera 17.09.2024, 19.40.xcarchive/Products/Applications/Camera.app/Frameworks
+
+Build on desktop:
+
+xcodebuild -create-xcframework \
+    -framework /Users/work/Library/Developer/Xcode/Archives/2024-09-17/Camera\ 17.09.2024,\ 19.40.xcarchive/Products/Applications/Camera.app/Frameworks/CameraSDK.framework \
+    -output /Users/work/Desktop/CameraSDK.xcframework
+
+xcframework successfully written out to: /Users/work/Desktop/CameraSDK.xcframework

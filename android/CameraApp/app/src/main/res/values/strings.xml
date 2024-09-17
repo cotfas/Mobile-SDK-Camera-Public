@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Camera App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Camera Android App</string>
+    <string name="second_fragment_label">Gallery list</string>
+    <string name="next">Show Gallery</string>
+    <string name="previous">Go back</string>
+    <string name="authenticate">Authenticate</string>
+
+    <string name="lorem_ipsum">
+        SDK Functionality: \n
+        
+            > Taking a Selfie (takePhoto()) \n\n
+            - The SDK should utilize the device`s camera to capture a photo, preferably using the front-facing camera by default. \n
+            - The captured photos should be stored locally on the device. \n\n
+
+            > Viewing Selfies (accessPhotos()) \n
+            - The SDK should allow users to view previously taken selfies. \n\n
+
+            -> User Authentication (authenticateUser()) \n
+            - The SDK should authenticate the user using the device`s built-in biometric capabilities before granting access to the photos. \n
+    </string>
+</resources>

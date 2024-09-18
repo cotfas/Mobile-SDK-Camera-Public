@@ -17,7 +17,7 @@
 ### ⚒️ Tech stack:
 `- Android sample: Kotlin`</br>
 `- Android library: Java`</br>
-`- iOS sample: Swift`</br>
+`- iOS sample: SwiftUI`</br>
 `- iOS library: Swift`</br>
 
 -----------------

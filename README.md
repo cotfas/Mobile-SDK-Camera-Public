@@ -22,16 +22,24 @@
 
 -----------------
 
+### 📲 Android and Apple demo
+
+https://github.com/user-attachments/assets/0886cfbb-6cbf-466d-b9d2-934bee8f7b66
+
+
+<details><summary>More videos (click to expand)</summary>
+
 ### 📲 Android demo
 https://github.com/user-attachments/assets/a22ac105-31a7-4df1-8615-7f67345c691b
 
 _*the black screen from the video is when using Biometrics (recording on android can't be made)_
 
-
 ### 🔥 iOS demo
 https://github.com/user-attachments/assets/744cd887-81f1-4293-be82-c3b0649c5c4d
 
 </br>
+
+</details>
 
 -----------------
 

@@ -20,6 +20,8 @@
 `- iOS sample: SwiftUI`</br>
 `- iOS library: Swift`</br>
 
+📍 *[source code of camera-sdk Android Java library available upon request]*
+
 -----------------
 
 ### 📲 Android and Apple demo

@@ -1,6 +1,8 @@
 # Mobile-SDK-Camera-Public
 📷 Android and iOS Camera SDK Library to manage photos
 
+![screenshot](https://github.com/user-attachments/assets/5adb3ee4-fda8-4d70-bfca-2adad05bce26)
+
 -----------------
 
 ### 🧩 SDK Functionality:
@@ -21,6 +23,7 @@
 `- iOS library: Swift`</br>
 
 📍 *[source code of camera-sdk Android Java library available upon request]*
+
 
 -----------------
 

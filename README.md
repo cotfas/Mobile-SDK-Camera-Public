@@ -22,7 +22,7 @@
 `- iOS sample: SwiftUI`</br>
 `- iOS library: Swift`</br>
 
-📍 *[source code of camera-sdk Android Java library available upon request]*
+📍 *[ source code of camera-sdk Android Java library available at https://github.com/cotfas/Mobile-SDK-Camera-private/tree/main/android/CameraApp/camera-sdk ]*
 
 
 -----------------

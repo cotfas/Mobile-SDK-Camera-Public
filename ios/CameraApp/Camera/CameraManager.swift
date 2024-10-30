@@ -10,14 +10,17 @@ import CameraSDK
 import SwiftUI
 
 class CameraManager: ObservableObject, CameraSDKDelegate {
-    private let cameraSDK: CameraSDK
+    private let cameraSDK: CameraSDKProtocol
 
     @Published var images: [URL] = []
     @Published var isAuthenticated = false
 
-    init() {
-        cameraSDK = CameraSDK()
-        cameraSDK.delegate = self
+    init(cameraSDK: CameraSDKProtocol = CameraSDKImpl()) {
+        self.cameraSDK = cameraSDK
+        // If cameraSDK is of type CameraSDKImpl, set the delegate
+        if let sdk = cameraSDK as? CameraSDKImpl {
+            sdk.setDelegate(self)
+        }
     }
 
     func takePhoto() {
@@ -70,5 +73,10 @@ class CameraManager: ObservableObject, CameraSDKDelegate {
             print("Authentication failed: \(error?.localizedDescription ?? "Unknown error")")
             ToastHelper.showToast("Authentication failed: \(error?.localizedDescription ?? "Unknown error")")
         }
+    }
+    
+    func didOnError(_ message: String) {
+        print("didOnError \(message)")
+        ToastHelper.showToast("didOnError \(message)")
     }
 }

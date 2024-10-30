@@ -17,7 +17,7 @@
 		297ECF6D2C9971CA00D6F81F /* CameraSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 297ECF572C9971CA00D6F81F /* CameraSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		297ECF762C99771700D6F81F /* CameraSDKProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECF752C99771700D6F81F /* CameraSDKProtocol.swift */; };
 		297ECF782C99793000D6F81F /* CameraSDKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECF772C99793000D6F81F /* CameraSDKDelegate.swift */; };
-		297ECF7A2C99796600D6F81F /* CameraSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECF792C99796600D6F81F /* CameraSDK.swift */; };
+		297ECF7A2C99796600D6F81F /* CameraSDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECF792C99796600D6F81F /* CameraSDKImpl.swift */; };
 		297ECF7E2C997AE500D6F81F /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECF7D2C997AE500D6F81F /* CameraManager.swift */; };
 		297ECF842C9998C800D6F81F /* ToastHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECF832C9998C800D6F81F /* ToastHelper.swift */; };
 /* End PBXBuildFile section */
@@ -72,7 +72,7 @@
 		297ECF672C9971CA00D6F81F /* CameraSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSDKTests.swift; sourceTree = "<group>"; };
 		297ECF752C99771700D6F81F /* CameraSDKProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSDKProtocol.swift; sourceTree = "<group>"; };
 		297ECF772C99793000D6F81F /* CameraSDKDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSDKDelegate.swift; sourceTree = "<group>"; };
-		297ECF792C99796600D6F81F /* CameraSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSDK.swift; sourceTree = "<group>"; };
+		297ECF792C99796600D6F81F /* CameraSDKImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSDKImpl.swift; sourceTree = "<group>"; };
 		297ECF7D2C997AE500D6F81F /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		297ECF812C99816E00D6F81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		297ECF832C9998C800D6F81F /* ToastHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastHelper.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 				297ECF592C9971CA00D6F81F /* CameraSDK.h */,
 				297ECF752C99771700D6F81F /* CameraSDKProtocol.swift */,
 				297ECF772C99793000D6F81F /* CameraSDKDelegate.swift */,
-				297ECF792C99796600D6F81F /* CameraSDK.swift */,
+				297ECF792C99796600D6F81F /* CameraSDKImpl.swift */,
 			);
 			path = CameraSDK;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				297ECF782C99793000D6F81F /* CameraSDKDelegate.swift in Sources */,
-				297ECF7A2C99796600D6F81F /* CameraSDK.swift in Sources */,
+				297ECF7A2C99796600D6F81F /* CameraSDKImpl.swift in Sources */,
 				297ECF762C99771700D6F81F /* CameraSDKProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,4 +11,5 @@ public protocol CameraSDKDelegate: AnyObject {
     func didTakePhoto(success: Bool, photoURL: URL?)
     func didAccessPhotos(_ photoURLs: [URL]?)
     func didAuthenticate(success: Bool, error: Error?)
+    func didOnError(_ message: String)
 }

@@ -38,7 +38,8 @@ class FirstFragment : Fragment() {
 
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
 
-        sdk = PhotoSDKImpl(activity)
+        // Initialise SDK
+        sdk = PhotoSDKImpl(this)
 
         return binding.root
     }

@@ -14,6 +14,12 @@ import io.digitalbinary.camera.adapter.ImageAdapter
 import io.digitalbinary.camera.databinding.FragmentSecondBinding
 import io.digitalbinary.camera.sdk.PhotoSDK
 import io.digitalbinary.camera.sdk.impl.PhotoSDKImpl
+import io.digitalbinary.camera.sdk.messages.MessageEvent
+import io.digitalbinary.camera.sdk.messages.SuccessEvent
+import org.greenrobot.eventbus.EventBus
+import org.greenrobot.eventbus.Subscribe
+import org.greenrobot.eventbus.ThreadMode
+
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
@@ -37,7 +43,7 @@ class SecondFragment : Fragment() {
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
 
         // Initialise SDK
-        sdk = PhotoSDKImpl(activity)
+        sdk = PhotoSDKImpl(this)
 
         return binding.root
     }
@@ -61,10 +67,30 @@ class SecondFragment : Fragment() {
     override fun onResume() {
         super.onResume()
 
-        Toast.makeText(activity, "Refreshing UI", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(activity, "Refreshing UI", Toast.LENGTH_SHORT).show()
 
         // notifyDataSetChanged
         view?.let { initialiseList(it) }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        EventBus.getDefault().register(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        EventBus.getDefault().unregister(this)
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    fun onMessageEvent(event: SuccessEvent?) {
+        Toast.makeText(context, event!!.name, Toast.LENGTH_SHORT).show()
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    fun onMessageEvent(event: MessageEvent?) {
+        Toast.makeText(context, event!!.name, Toast.LENGTH_SHORT).show()
     }
 
     private fun initialiseList(rootView: View) {

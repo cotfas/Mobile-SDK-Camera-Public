@@ -12,7 +12,7 @@ android {
         minSdk = 30
         targetSdk = 35
         versionCode = 1
-        versionName = "0.0.1"
+        versionName = "0.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -50,8 +50,8 @@ dependencies {
     implementation(libs.eventbus)
     implementation(libs.picasso)
     implementation(libs.androidx.biometric)
-//    implementation(project(":camera-sdk"))
-    implementation(files("library/camera-sdk-release.aar"))
+    implementation(project(":camera-sdk"))
+//    implementation(files("library/camera-sdk-release.aar"))
 
 
     testImplementation(libs.junit)

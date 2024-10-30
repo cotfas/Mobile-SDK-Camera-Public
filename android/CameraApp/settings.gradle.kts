@@ -28,4 +28,4 @@ include(":app")
 // Use for build ../gradlew clean assembleRelease
 // Copy aar file to /library/ folder
 // Include aar file in sample app -> implementation(files("library/camera-sdk-release.aar"))
-//include(":camera-sdk")
+include(":camera-sdk")

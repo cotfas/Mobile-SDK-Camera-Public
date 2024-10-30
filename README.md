@@ -1,6 +1,8 @@
 # Mobile-SDK-Camera-Public
 📷 Android and iOS Camera SDK Library to manage photos
 
+`— Developed a mobile app for Android and iOS using native code: users can take and store selfies privately, and access the gallery only after biometric authentication with Face ID. 📸📱🔒`
+
 ![screenshot](https://github.com/user-attachments/assets/5adb3ee4-fda8-4d70-bfca-2adad05bce26)
 
 -----------------
@@ -22,8 +24,9 @@
 `- iOS sample: SwiftUI`</br>
 `- iOS library: Swift`</br>
 
+<!--
 📍 *[ source code of camera-sdk Android Java library available at https://github.com/cotfas/Mobile-SDK-Camera-private/tree/main/android/CameraApp/camera-sdk ]*
-
+-->
 
 -----------------
 
@@ -31,7 +34,7 @@
 
 https://github.com/user-attachments/assets/0886cfbb-6cbf-466d-b9d2-934bee8f7b66
 
-
+<!--
 <details><summary>More videos (click to expand)</summary>
 
 ### 📲 Android demo
@@ -45,7 +48,7 @@ https://github.com/user-attachments/assets/744cd887-81f1-4293-be82-c3b0649c5c4d
 </br>
 
 </details>
-
+-->
 -----------------
 
 </br>

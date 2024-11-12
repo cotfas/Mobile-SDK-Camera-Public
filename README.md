@@ -49,8 +49,17 @@ https://github.com/user-attachments/assets/744cd887-81f1-4293-be82-c3b0649c5c4d
 
 </details>
 -->
+
+</br>
+
+## 🏗️ Project Assignment Requirement
+
+![Project Assignment Requirement](https://github.com/cotfas/Mobile-SDK-Camera-Public/blob/main/extras/Project-Assignment-Requirement.png)
+
 -----------------
 _👉 If you want to see all the `development` commits produced for this work, please request access to: https://github.com/cotfas/Mobile-SDK-Camera-private/commits/main/_
+
+##
 
 </br>
 

@@ -56,6 +56,24 @@ https://github.com/user-attachments/assets/744cd887-81f1-4293-be82-c3b0649c5c4d
 
 ![Project Assignment Requirement](https://github.com/cotfas/Mobile-SDK-Camera-Public/blob/main/extras/Project-Assignment-Requirement.png)
 
+</br>
+
+## ⏰ Time tracked to produce this work
+
+![1](https://github.com/cotfas/Mobile-SDK-Camera-Public/blob/main/extras/time-tracking/16Sept.png)
+![1](https://github.com/cotfas/Mobile-SDK-Camera-Public/blob/main/extras/time-tracking/17Sept.png)
+![1](https://github.com/cotfas/Mobile-SDK-Camera-Public/blob/main/extras/time-tracking/17SeptV2.png)
+![1](https://github.com/cotfas/Mobile-SDK-Camera-Public/blob/main/extras/time-tracking/18Sept.png)
+
+```
+16 September 2024 -> 7h
+17 September 2024 -> 10h
+17 September 2024 -> 2.5h
+18 September 2024 -> 10h
+------------------------
+Total: 29,5h
+```
+
 -----------------
 _👉 If you want to see all the `development` commits produced for this work, please request access to: https://github.com/cotfas/Mobile-SDK-Camera-private/commits/main/_
 

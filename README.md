@@ -67,9 +67,13 @@ https://github.com/user-attachments/assets/744cd887-81f1-4293-be82-c3b0649c5c4d
 
 ```
 16 September 2024 -> 7h
+  — Android implementation.
 17 September 2024 -> 10h
+  — iOS implementation.
 17 September 2024 -> 2.5h
+  — Improvements, Avoiding memory leaks in aar library.
 18 September 2024 -> 10h
+  — Testing, Improvements and delivery.
 ------------------------
 Total: 29,5h
 ```
